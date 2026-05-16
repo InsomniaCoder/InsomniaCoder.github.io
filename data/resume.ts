@@ -16,6 +16,7 @@ export interface ExperienceRole {
   title: string
   period: string
   bullets: string[]
+  isEducation?: boolean
 }
 
 export interface SkillGroup {
@@ -56,9 +57,9 @@ export const hero = {
   bio: 'I build and operate large-scale Kubernetes infrastructure for e-commerce marketplaces across Europe. On the Runtime team at Adevinta, I focus on platform reliability, developer experience, and cloud-native tooling. I write about real-world SRE incidents and platform engineering on Medium, and speak at conferences about what running Kubernetes at scale actually looks like.',
   stats: [
     { value: '30+', label: 'K8s Clusters' },
-    { value: '80k+', label: 'Pods' },
-    { value: '250k', label: 'RPS at peak' },
-    { value: '517', label: 'Medium followers' },
+    { value: '100K+', label: 'Pods' },
+    { value: '300K', label: 'RPS at peak' },
+    { value: '300+', label: 'Incidents led' },
   ] satisfies Stat[],
 }
 
@@ -69,8 +70,8 @@ export const about = {
     { key: 'Origin', value: 'Thailand 🇹🇭' },
     { key: 'Role', value: 'Staff SRE / Platform Engineer' },
     { key: 'Company', value: 'Adevinta' },
-    { key: 'Education', value: 'KMITL, Bangkok (2012–2015)' },
-    { key: 'Certifications', value: 'Azure Fundamentals · AZ-301' },
+    { key: 'Education', value: 'BSc CS, KMITL — First-class Honours, Gold Medal' },
+    { key: 'GitHub', value: 'github.com/InsomniaCoder' },
   ] satisfies Fact[],
 }
 
@@ -79,28 +80,75 @@ export const experience: ExperienceRole[] = [
     company: 'Adevinta',
     location: 'Barcelona, Spain',
     title: 'Staff Site Reliability Engineer',
-    period: '2020 — Present',
+    period: 'Mar 2024 — Present',
     bullets: [
-      'Runtime team — building and operating SCHIP, an internal Kubernetes-based PaaS. 30+ production clusters, 4 AWS regions, 2k+ nodes, 80k+ pods, 250k+ RPS at peak.',
-      'Led migration from Cluster Autoscaler to AWS Karpenter, achieving €30,000/month in cost savings through automated instance selection and AMD adoption.',
-      'Led migration from OPA/Gatekeeper to Kyverno for Kubernetes policy management, improving developer experience and reducing webhook admission latency.',
-      'Architected observability stack: Prometheus, Grafana, OpenTelemetry, Cilium/Hubble; built custom dashboards for API deprecation tracking.',
-      'Managed Kubernetes upgrade strategy: transitioned from blue-green to in-place upgrades using cluster waves and PDB configurations to minimise SLO impact.',
-      'Built first SRE LLM agent using LangchainGo to locate Kubernetes workloads across 30+ clusters, automating a daily tedious task.',
-      'Tools: Kubernetes, EKS, ArgoCD, Helm, Karpenter, Kyverno, Prometheus, Grafana, Cilium, Terraform, Go, Python.',
+      'Designed and evolved a cluster fleet management model, treating Kubernetes clusters as declarative, self-validating entities rather than snowflakes.',
+      'Built and operated custom Kubernetes operators acting as a control plane for cluster lifecycle, maintenance, and rollout orchestration.',
+      'Implemented progressive, SLO-gated cluster rollouts using reliability signals and blackbox tests to ensure safety before advancing changes across the fleet.',
+      'Established platform-level reliability standards including SLO/SLI definitions, alerting principles, and incident response expectations adopted across teams.',
+      'Designed instance management and reliability strategies to make maintenance automated, repeatable, and low-effort, significantly reducing operational risk.',
+      'Partnered with technical leadership to influence platform architecture, networking models, and operational strategy, balancing reliability, cost efficiency, and developer experience.',
     ],
   },
   {
-    company: 'Previous Experience',
-    location: 'Thailand',
-    title: 'DevOps / Platform Engineering roles',
-    period: 'Pre-2020',
+    company: 'Adevinta',
+    location: 'Barcelona, Spain',
+    title: 'Senior DevOps Engineer',
+    period: 'Mar 2023 — Mar 2024',
     bullets: [
-      'Earlier career in DevOps and platform engineering based in Thailand.',
-      'Achieved Microsoft Azure Fundamentals and AZ-301 Azure Architect Design certifications.',
+      'Established and operationalised SLOs and SLIs for critical platform services, enabling objective reliability discussions and prioritisation.',
+      'Redesigned alerting and response workflows to shift from reactive paging to signal-driven operations.',
+      'Introduced self-healing mechanisms and automation to eliminate common failure modes and reduce operational noise.',
+      'Led the evolution of Kubernetes upgrade strategy, transitioning from Blue/Green to in-place EKS upgrades to simplify fleet operations.',
+      'Worked hands-on across Kubernetes, observability, and platform tooling to improve reliability, scalability, and cost efficiency at platform scale.',
+    ],
+  },
+  {
+    company: 'Adevinta',
+    location: 'Barcelona, Spain',
+    title: 'DevOps Engineer',
+    period: 'Oct 2021 — Mar 2023',
+    bullets: [
+      'Operated and supported production Kubernetes clusters as part of a shared internal platform.',
+      'Defined reliability expectations (SLOs) for common platform services such as ingress, certificates, logging, and monitoring.',
+      'Built Kubernetes operators and automation to improve onboarding and reduce operational friction for platform users.',
+      'Integrated IAM, autoscaling, logging, and monitoring capabilities to accelerate teams from development to production.',
+    ],
+  },
+  {
+    company: 'Monix',
+    location: 'Bangkok, Thailand',
+    title: 'DevOps Engineer / Platform Infrastructure Owner',
+    period: 'Mar 2021 — Oct 2021',
+    bullets: [
+      'Designed and operated AWS-based infrastructure including production-grade EKS, networking, and security foundations.',
+      'Built an internal developer platform covering CI/CD pipelines, identity management, secrets, and certificate automation.',
+      'Operated and maintained stateful production systems including Kafka and MongoDB.',
+      'Established cloud cost governance practices and introduced CNCF-aligned tooling such as GitOps, Kubernetes Operators, and Vault.',
+    ],
+  },
+  {
+    company: 'Exxonmobil',
+    location: 'Thailand & Global',
+    title: 'Software / Platform Engineer',
+    period: 'Jun 2016 — Nov 2020',
+    bullets: [
+      'Led platform and DevOps enablement efforts for globally distributed engineering teams.',
+      'Designed Kubernetes-based platforms on Azure and OpenShift.',
+      'Defined Infrastructure-as-Code and CI/CD standards adopted across multiple teams.',
+      'Designed event-driven microservices architectures using Kafka and Redis.',
+      'Provided architecture guidance, reference implementations, and best practices to accelerate product delivery.',
     ],
   },
 ]
+
+export const education = {
+  degree: 'Bachelor of Science (BSc), Computer Science',
+  institution: "King Mongkut's Institute of Technology Ladkrabang (KMITL)",
+  location: 'Bangkok, Thailand',
+  period: '2012 — 2015',
+  highlights: ['GPA: 3.87', 'First-class Honours', 'Gold Medal recipient'],
+}
 
 export const skills: SkillGroup[] = [
   {

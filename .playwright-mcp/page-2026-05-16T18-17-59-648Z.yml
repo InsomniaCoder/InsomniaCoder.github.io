@@ -1,0 +1,392 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - paragraph [ref=e4]: Tanat L.
+      - paragraph [ref=e5]:
+        - text: Staff SRE &
+        - text: Platform Engineer
+      - button "About" [ref=e6] [cursor=pointer]: About
+      - button "Resume" [ref=e8] [cursor=pointer]: Resume
+      - button "Skills" [ref=e10] [cursor=pointer]: Skills
+      - button "Blog Posts" [ref=e12] [cursor=pointer]: Blog Posts
+      - button "Talks" [ref=e14] [cursor=pointer]: Talks
+      - button "Contact" [ref=e16] [cursor=pointer]: Contact
+      - generic [ref=e18]:
+        - link "LinkedIn" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/tanatloke/
+          - img [ref=e20]
+        - link "Medium" [ref=e23] [cursor=pointer]:
+          - /url: https://tanatloke.medium.com/
+          - img [ref=e24]
+    - main [ref=e26]:
+      - generic [ref=e27]:
+        - img "Tanat Lokejaroenlarb" [ref=e29]
+        - generic [ref=e30]:
+          - generic [ref=e31]: 🇹🇭 → 🇪🇸 Barcelona
+          - heading "I'm Tanat Lokejaroenlarb." [level=1] [ref=e32]:
+            - text: I'm Tanat
+            - text: Lokejaroenlarb.
+          - paragraph [ref=e33]: I build and operate large-scale Kubernetes infrastructure for e-commerce marketplaces across Europe. On the Runtime team at Adevinta, I focus on platform reliability, developer experience, and cloud-native tooling. I write about real-world SRE incidents and platform engineering on Medium, and speak at conferences about what running Kubernetes at scale actually looks like.
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - paragraph [ref=e36]: 30+
+              - paragraph [ref=e37]: K8s Clusters
+            - generic [ref=e38]:
+              - paragraph [ref=e39]: 100K+
+              - paragraph [ref=e40]: Pods
+            - generic [ref=e41]:
+              - paragraph [ref=e42]: 300K
+              - paragraph [ref=e43]: RPS at peak
+            - generic [ref=e44]:
+              - paragraph [ref=e45]: 300+
+              - paragraph [ref=e46]: Incidents led
+          - generic [ref=e47]:
+            - link "View Blog Posts" [ref=e48] [cursor=pointer]:
+              - /url: "#blog"
+            - link "Contact Me" [ref=e49] [cursor=pointer]:
+              - /url: "#contact"
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Get to know me
+          - heading "About Me" [level=2] [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: Platform engineer with deep experience designing and operating large-scale Kubernetes infrastructure. Currently on the Runtime team at Adevinta, building SCHIP — an internal PaaS serving 1000+ developers across 30+ production clusters in 4 AWS regions. I write about real-world SRE incidents, platform patterns, and the intersection of LLMs and infrastructure on Medium and the Adevinta tech blog.
+            - img "Speaking at a conference" [ref=e57]
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - paragraph [ref=e60]: Location
+              - paragraph [ref=e61]: Barcelona, Spain 🇪🇸
+            - generic [ref=e62]:
+              - paragraph [ref=e63]: Origin
+              - paragraph [ref=e64]: Thailand 🇹🇭
+            - generic [ref=e65]:
+              - paragraph [ref=e66]: Role
+              - paragraph [ref=e67]: Staff SRE / Platform Engineer
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Company
+              - paragraph [ref=e70]: Adevinta
+            - generic [ref=e71]:
+              - paragraph [ref=e72]: Education
+              - paragraph [ref=e73]: BSc CS, KMITL — First-class Honours, Gold Medal
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: GitHub
+              - paragraph [ref=e76]: github.com/InsomniaCoder
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: Where I've been
+          - heading "Work Experience" [level=2] [ref=e80]
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - paragraph [ref=e85]: Mar 2024 — Present
+            - heading "Staff Site Reliability Engineer" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Adevinta · Barcelona, Spain
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - generic [ref=e90]: ▸
+                - generic [ref=e91]: Designed and evolved a cluster fleet management model, treating Kubernetes clusters as declarative, self-validating entities rather than snowflakes.
+              - listitem [ref=e92]:
+                - generic [ref=e93]: ▸
+                - generic [ref=e94]: Built and operated custom Kubernetes operators acting as a control plane for cluster lifecycle, maintenance, and rollout orchestration.
+              - listitem [ref=e95]:
+                - generic [ref=e96]: ▸
+                - generic [ref=e97]: Implemented progressive, SLO-gated cluster rollouts using reliability signals and blackbox tests to ensure safety before advancing changes across the fleet.
+              - listitem [ref=e98]:
+                - generic [ref=e99]: ▸
+                - generic [ref=e100]: Established platform-level reliability standards including SLO/SLI definitions, alerting principles, and incident response expectations adopted across teams.
+              - listitem [ref=e101]:
+                - generic [ref=e102]: ▸
+                - generic [ref=e103]: Designed instance management and reliability strategies to make maintenance automated, repeatable, and low-effort, significantly reducing operational risk.
+              - listitem [ref=e104]:
+                - generic [ref=e105]: ▸
+                - generic [ref=e106]: Partnered with technical leadership to influence platform architecture, networking models, and operational strategy, balancing reliability, cost efficiency, and developer experience.
+          - generic [ref=e107]:
+            - paragraph [ref=e110]: Mar 2023 — Mar 2024
+            - heading "Senior DevOps Engineer" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Adevinta · Barcelona, Spain
+            - list [ref=e113]:
+              - listitem [ref=e114]:
+                - generic [ref=e115]: ▸
+                - generic [ref=e116]: Established and operationalised SLOs and SLIs for critical platform services, enabling objective reliability discussions and prioritisation.
+              - listitem [ref=e117]:
+                - generic [ref=e118]: ▸
+                - generic [ref=e119]: Redesigned alerting and response workflows to shift from reactive paging to signal-driven operations.
+              - listitem [ref=e120]:
+                - generic [ref=e121]: ▸
+                - generic [ref=e122]: Introduced self-healing mechanisms and automation to eliminate common failure modes and reduce operational noise.
+              - listitem [ref=e123]:
+                - generic [ref=e124]: ▸
+                - generic [ref=e125]: Led the evolution of Kubernetes upgrade strategy, transitioning from Blue/Green to in-place EKS upgrades to simplify fleet operations.
+              - listitem [ref=e126]:
+                - generic [ref=e127]: ▸
+                - generic [ref=e128]: Worked hands-on across Kubernetes, observability, and platform tooling to improve reliability, scalability, and cost efficiency at platform scale.
+          - generic [ref=e129]:
+            - paragraph [ref=e132]: Oct 2021 — Mar 2023
+            - heading "DevOps Engineer" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Adevinta · Barcelona, Spain
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - generic [ref=e137]: ▸
+                - generic [ref=e138]: Operated and supported production Kubernetes clusters as part of a shared internal platform.
+              - listitem [ref=e139]:
+                - generic [ref=e140]: ▸
+                - generic [ref=e141]: Defined reliability expectations (SLOs) for common platform services such as ingress, certificates, logging, and monitoring.
+              - listitem [ref=e142]:
+                - generic [ref=e143]: ▸
+                - generic [ref=e144]: Built Kubernetes operators and automation to improve onboarding and reduce operational friction for platform users.
+              - listitem [ref=e145]:
+                - generic [ref=e146]: ▸
+                - generic [ref=e147]: Integrated IAM, autoscaling, logging, and monitoring capabilities to accelerate teams from development to production.
+          - generic [ref=e148]:
+            - paragraph [ref=e151]: Mar 2021 — Oct 2021
+            - heading "DevOps Manager / Platform Infrastructure Owner" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Monix · Bangkok, Thailand
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - generic [ref=e156]: ▸
+                - generic [ref=e157]: Designed and operated AWS-based infrastructure including production-grade EKS, networking, and security foundations.
+              - listitem [ref=e158]:
+                - generic [ref=e159]: ▸
+                - generic [ref=e160]: Built an internal developer platform covering CI/CD pipelines, identity management, secrets, and certificate automation.
+              - listitem [ref=e161]:
+                - generic [ref=e162]: ▸
+                - generic [ref=e163]: Operated and maintained stateful production systems including Kafka and MongoDB.
+              - listitem [ref=e164]:
+                - generic [ref=e165]: ▸
+                - generic [ref=e166]: Established cloud cost governance practices and introduced CNCF-aligned tooling such as GitOps, Kubernetes Operators, and Vault.
+          - generic [ref=e167]:
+            - paragraph [ref=e169]: Jun 2016 — Nov 2020
+            - heading "Software / Platform Engineer" [level=3] [ref=e170]
+            - paragraph [ref=e171]: Exxonmobil · Thailand & Global
+            - list [ref=e172]:
+              - listitem [ref=e173]:
+                - generic [ref=e174]: ▸
+                - generic [ref=e175]: Led platform and DevOps enablement efforts for globally distributed engineering teams.
+              - listitem [ref=e176]:
+                - generic [ref=e177]: ▸
+                - generic [ref=e178]: Designed Kubernetes-based platforms on Azure and OpenShift.
+              - listitem [ref=e179]:
+                - generic [ref=e180]: ▸
+                - generic [ref=e181]: Defined Infrastructure-as-Code and CI/CD standards adopted across multiple teams.
+              - listitem [ref=e182]:
+                - generic [ref=e183]: ▸
+                - generic [ref=e184]: Designed event-driven microservices architectures using Kafka and Redis.
+              - listitem [ref=e185]:
+                - generic [ref=e186]: ▸
+                - generic [ref=e187]: Provided architecture guidance, reference implementations, and best practices to accelerate product delivery.
+        - generic [ref=e188]:
+          - heading "Education" [level=3] [ref=e189]
+          - generic [ref=e192]:
+            - paragraph [ref=e193]: Bachelor of Science (BSc), Computer Science
+            - paragraph [ref=e194]: King Mongkut's Institute of Technology Ladkrabang (KMITL) · Bangkok, Thailand
+            - paragraph [ref=e195]: 2012 — 2015
+            - generic [ref=e196]:
+              - generic [ref=e197]: "GPA: 3.87"
+              - generic [ref=e198]: First-class Honours
+              - generic [ref=e199]: Gold Medal recipient
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - paragraph [ref=e202]: What I work with
+          - heading "Skills & Technologies" [level=2] [ref=e203]
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - paragraph [ref=e206]: Orchestration
+            - generic [ref=e207]:
+              - generic [ref=e208]: Kubernetes
+              - generic [ref=e209]: EKS
+              - generic [ref=e210]: Karpenter
+              - generic [ref=e211]: ArgoCD
+              - generic [ref=e212]: Helm
+              - generic [ref=e213]: Cluster API
+          - generic [ref=e214]:
+            - paragraph [ref=e215]: Policy & Security
+            - generic [ref=e216]:
+              - generic [ref=e217]: Kyverno
+              - generic [ref=e218]: OPA / Gatekeeper
+              - generic [ref=e219]: RBAC
+              - generic [ref=e220]: Cilium
+              - generic [ref=e221]: NetworkPolicy
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: Observability
+            - generic [ref=e224]:
+              - generic [ref=e225]: Prometheus
+              - generic [ref=e226]: Grafana
+              - generic [ref=e227]: OpenTelemetry
+              - generic [ref=e228]: Hubble
+              - generic [ref=e229]: Loki
+          - generic [ref=e230]:
+            - paragraph [ref=e231]: Cloud & Infra
+            - generic [ref=e232]:
+              - generic [ref=e233]: AWS
+              - generic [ref=e234]: Azure
+              - generic [ref=e235]: Terraform
+              - generic [ref=e236]: Pulumi
+              - generic [ref=e237]: ELB
+              - generic [ref=e238]: VPC
+          - generic [ref=e239]:
+            - paragraph [ref=e240]: Programming
+            - generic [ref=e241]:
+              - generic [ref=e242]: Go
+              - generic [ref=e243]: Python
+              - generic [ref=e244]: Bash
+              - generic [ref=e245]: TypeScript
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: AI / LLM
+            - generic [ref=e248]:
+              - generic [ref=e249]: LangchainGo
+              - generic [ref=e250]: k8sgpt
+              - generic [ref=e251]: Ollama
+              - generic [ref=e252]: LLM Agents
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - paragraph [ref=e255]: Writing
+          - heading "Blog Posts" [level=2] [ref=e256]
+        - generic [ref=e257]:
+          - 'link "⚡ Kubernetes · Incident 50K views When VerticalPodAutoscaler Goes Rogue: How an Autoscaler Took Down Our Cluster Read on Medium" [ref=e258] [cursor=pointer]':
+            - /url: https://tanatloke.medium.com/when-verticalpodautoscaler-goes-rogue-how-an-autoscaler-took-down-our-cluster-020ff80660a1
+            - generic [ref=e259]: ⚡
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - paragraph [ref=e262]: Kubernetes · Incident
+                - generic [ref=e263]: 50K views
+              - 'heading "When VerticalPodAutoscaler Goes Rogue: How an Autoscaler Took Down Our Cluster" [level=3] [ref=e264]'
+              - generic [ref=e265]:
+                - img [ref=e266]
+                - generic [ref=e270]: Read on Medium
+          - link "🚀 Karpenter · Cost Solving the Karpenter Price-Performance Trap with NodeOverlays Read on Medium" [ref=e271] [cursor=pointer]:
+            - /url: https://medium.com/learnings-from-the-paas/solving-the-karpenter-price-performance-trap-with-nodeoverlays-82d5fac15da1
+            - generic [ref=e272]: 🚀
+            - generic [ref=e273]:
+              - paragraph [ref=e275]: Karpenter · Cost
+              - heading "Solving the Karpenter Price-Performance Trap with NodeOverlays" [level=3] [ref=e276]
+              - generic [ref=e277]:
+                - img [ref=e278]
+                - generic [ref=e282]: Read on Medium
+          - link "📊 Observability · Platform How we S(C)HIP Metrics for 1000+ Developers — Part 1 Read on Medium" [ref=e283] [cursor=pointer]:
+            - /url: https://tanatloke.medium.com/
+            - generic [ref=e284]: 📊
+            - generic [ref=e285]:
+              - paragraph [ref=e287]: Observability · Platform
+              - heading "How we S(C)HIP Metrics for 1000+ Developers — Part 1" [level=3] [ref=e288]
+              - generic [ref=e289]:
+                - img [ref=e290]
+                - generic [ref=e294]: Read on Medium
+          - link "📋 Observability · Platform How we S(C)HIP Logs for 1000+ Developers — Part 2 Read on Medium" [ref=e295] [cursor=pointer]:
+            - /url: https://tanatloke.medium.com/
+            - generic [ref=e296]: 📋
+            - generic [ref=e297]:
+              - paragraph [ref=e299]: Observability · Platform
+              - heading "How we S(C)HIP Logs for 1000+ Developers — Part 2" [level=3] [ref=e300]
+              - generic [ref=e301]:
+                - img [ref=e302]
+                - generic [ref=e306]: Read on Medium
+          - link "🤖 LLM · Go · SRE Developing My First SRE Helper LLM Agent Using LangchainGo Read on Medium" [ref=e307] [cursor=pointer]:
+            - /url: https://medium.com/learnings-from-the-paas/developing-my-first-sre-helper-llm-agent-using-langchaingo-63f4201636f5
+            - generic [ref=e308]: 🤖
+            - generic [ref=e309]:
+              - paragraph [ref=e311]: LLM · Go · SRE
+              - heading "Developing My First SRE Helper LLM Agent Using LangchainGo" [level=3] [ref=e312]
+              - generic [ref=e313]:
+                - img [ref=e314]
+                - generic [ref=e318]: Read on Medium
+          - link "🧠 AI · Kubernetes Running K8SGPT with Ollama Inside Your Kubernetes Cluster Read on Medium" [ref=e319] [cursor=pointer]:
+            - /url: https://tanatloke.medium.com/
+            - generic [ref=e320]: 🧠
+            - generic [ref=e321]:
+              - paragraph [ref=e323]: AI · Kubernetes
+              - heading "Running K8SGPT with Ollama Inside Your Kubernetes Cluster" [level=3] [ref=e324]
+              - generic [ref=e325]:
+                - img [ref=e326]
+                - generic [ref=e330]: Read on Medium
+          - 'link "🔥 Incident · SRE Trial by Fire: Tales from the SRE Frontlines — Ep1: Challenge the Certificates Read on Medium" [ref=e331] [cursor=pointer]':
+            - /url: https://adevinta.com/techblog/trial-by-fire-tales-from-the-sre-frontlines-ep1-challenge-the-certificates/
+            - generic [ref=e332]: 🔥
+            - generic [ref=e333]:
+              - paragraph [ref=e335]: Incident · SRE
+              - 'heading "Trial by Fire: Tales from the SRE Frontlines — Ep1: Challenge the Certificates" [level=3] [ref=e336]'
+              - generic [ref=e337]:
+                - img [ref=e338]
+                - generic [ref=e342]: Read on Medium
+        - link "View all posts on Medium" [ref=e343] [cursor=pointer]:
+          - /url: https://tanatloke.medium.com/
+          - img [ref=e344]
+          - text: View all posts on Medium
+      - generic [ref=e348]:
+        - generic [ref=e349]:
+          - paragraph [ref=e350]: Speaking
+          - heading "Talks & Appearances" [level=2] [ref=e351]
+        - generic [ref=e352]:
+          - 'link "From Gatekeeper to Kyverno: Kubernetes Policy Management with Performance P99 CONF 2025 From Gatekeeper to Kyverno: Kubernetes Policy Management with Performance 2025 Sharing our journey migrating from OPA/Gatekeeper to Kyverno at scale — policy design, migration strategy, admission latency lessons, and how to avoid taking down your cluster with a webhook." [ref=e353] [cursor=pointer]':
+            - /url: https://www.youtube.com/watch?v=OlUH0TM5O6I
+            - generic [ref=e354]:
+              - 'img "From Gatekeeper to Kyverno: Kubernetes Policy Management with Performance" [ref=e355]'
+              - img [ref=e357]
+            - generic [ref=e359]:
+              - paragraph [ref=e360]: P99 CONF 2025
+              - 'heading "From Gatekeeper to Kyverno: Kubernetes Policy Management with Performance" [level=3] [ref=e361]'
+              - paragraph [ref=e362]: "2025"
+              - paragraph [ref=e363]: Sharing our journey migrating from OPA/Gatekeeper to Kyverno at scale — policy design, migration strategy, admission latency lessons, and how to avoid taking down your cluster with a webhook.
+          - 'link "The Karpenter Effect: Redefining Kubernetes Operations KubeFM Podcast The Karpenter Effect: Redefining Kubernetes Operations November 2025 How replacing EKS Managed Node Groups and Cluster Autoscaler with Karpenter transformed our Kubernetes operations, decoupled control/data plane upgrades, and saved €30,000/month." [ref=e364] [cursor=pointer]':
+            - /url: https://www.youtube.com/watch?v=HoxHcf9Wl7k
+            - generic [ref=e365]:
+              - 'img "The Karpenter Effect: Redefining Kubernetes Operations" [ref=e366]'
+              - img [ref=e368]
+            - generic [ref=e370]:
+              - paragraph [ref=e371]: KubeFM Podcast
+              - 'heading "The Karpenter Effect: Redefining Kubernetes Operations" [level=3] [ref=e372]'
+              - paragraph [ref=e373]: November 2025
+              - paragraph [ref=e374]: How replacing EKS Managed Node Groups and Cluster Autoscaler with Karpenter transformed our Kubernetes operations, decoupled control/data plane upgrades, and saved €30,000/month.
+          - 'link "Kubernetes Upgrades: Beyond the One-Click Update KubeFM Podcast Kubernetes Upgrades: Beyond the One-Click Update May 2025 How Adevinta transitioned from blue-green to in-place Kubernetes upgrades for SCHIP, covering API deprecation tracking, cluster waves, PDB configuration, and ELB warm-up strategies." [ref=e375] [cursor=pointer]':
+            - /url: https://www.youtube.com/watch?v=Pmv_UBJMJDo
+            - generic [ref=e376]:
+              - 'img "Kubernetes Upgrades: Beyond the One-Click Update" [ref=e377]'
+              - img [ref=e379]
+            - generic [ref=e381]:
+              - paragraph [ref=e382]: KubeFM Podcast
+              - 'heading "Kubernetes Upgrades: Beyond the One-Click Update" [level=3] [ref=e383]'
+              - paragraph [ref=e384]: May 2025
+              - paragraph [ref=e385]: How Adevinta transitioned from blue-green to in-place Kubernetes upgrades for SCHIP, covering API deprecation tracking, cluster waves, PDB configuration, and ELB warm-up strategies.
+          - 'link "Observability to Resolution: The Journey Through a Production K8s Incident DevOps Barcelona 2025 Observability to Resolution: The Journey Through a Production K8s Incident 2025 A live walkthrough of a real production Kubernetes incident — from alert to root cause — showing how observability tools (metrics, traces, logs) guide an SRE through diagnosis and resolution." [ref=e386] [cursor=pointer]':
+            - /url: https://www.youtube.com/watch?v=QVuoTvoPpaw
+            - generic [ref=e387]:
+              - 'img "Observability to Resolution: The Journey Through a Production K8s Incident" [ref=e388]'
+              - img [ref=e390]
+            - generic [ref=e392]:
+              - paragraph [ref=e393]: DevOps Barcelona 2025
+              - 'heading "Observability to Resolution: The Journey Through a Production K8s Incident" [level=3] [ref=e394]'
+              - paragraph [ref=e395]: "2025"
+              - paragraph [ref=e396]: A live walkthrough of a real production Kubernetes incident — from alert to root cause — showing how observability tools (metrics, traces, logs) guide an SRE through diagnosis and resolution.
+          - generic [ref=e397]:
+            - img [ref=e400]
+            - generic [ref=e402]:
+              - paragraph [ref=e403]: KyvernoCon 2025
+              - 'heading "Webhook Topology and Admission Latency: Lessons from Migration" [level=3] [ref=e404]'
+              - paragraph [ref=e405]: "2025"
+              - paragraph [ref=e406]: "Real-world lessons from migrating Kubernetes admission webhooks at scale: how webhook topology affects cluster stability, how to measure admission latency, and how to survive the migration."
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - paragraph [ref=e409]: Say hello
+          - heading "Get in Touch" [level=2] [ref=e410]
+        - generic [ref=e411]:
+          - paragraph [ref=e412]: Interested in talking about platform engineering, SRE, Kubernetes, or cloud-native topics? I'm always happy to connect with fellow engineers — reach out via LinkedIn or Medium.
+          - generic [ref=e413]:
+            - link "LinkedIn linkedin.com/in/tanatloke" [ref=e414] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/tanatloke/
+              - img [ref=e416]
+              - generic [ref=e419]:
+                - paragraph [ref=e420]: LinkedIn
+                - paragraph [ref=e421]: linkedin.com/in/tanatloke
+            - link "Medium tanatloke.medium.com" [ref=e422] [cursor=pointer]:
+              - /url: https://tanatloke.medium.com/
+              - img [ref=e424]
+              - generic [ref=e426]:
+                - paragraph [ref=e427]: Medium
+                - paragraph [ref=e428]: tanatloke.medium.com
+            - link "Location Barcelona, Spain" [ref=e429] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Barcelona
+              - img [ref=e431]
+              - generic [ref=e434]:
+                - paragraph [ref=e435]: Location
+                - paragraph [ref=e436]: Barcelona, Spain
+      - generic [ref=e437]: © 2026 Tanat Lokejaroenlarb · Built with Next.js & Tailwind CSS
+  - alert [ref=e438]
