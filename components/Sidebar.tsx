@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { Linkedin, BookOpen } from 'lucide-react'
+import { Link, BookOpen } from 'lucide-react'
 
 const navItems = [
   { id: 'hero', label: 'About' },
@@ -86,7 +86,7 @@ export function Sidebar() {
           title="LinkedIn"
           className="w-7 h-7 rounded-full bg-navy-surface flex items-center justify-center text-text-muted hover:bg-teal-dim hover:text-teal transition-colors"
         >
-          <Linkedin size={13} />
+          <Link size={13} />
         </a>
         <a
           href="https://tanatloke.medium.com/"

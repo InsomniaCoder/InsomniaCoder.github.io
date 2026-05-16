@@ -1,9 +1,9 @@
 import { contact } from '@/data/resume'
 import { SectionHeader } from '@/components/ui/SectionHeader'
-import { Linkedin, BookOpen, MapPin } from 'lucide-react'
+import { Link, BookOpen, MapPin } from 'lucide-react'
 
 const iconMap = {
-  linkedin: Linkedin,
+  linkedin: Link,
   medium: BookOpen,
   location: MapPin,
   email: MapPin,
