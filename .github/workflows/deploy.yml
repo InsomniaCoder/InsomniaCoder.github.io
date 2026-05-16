@@ -27,10 +27,11 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+      - run: ls -la out/
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: ./out
 
   deploy:
     needs: build
